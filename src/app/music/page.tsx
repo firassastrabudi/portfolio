@@ -14,7 +14,12 @@ export async function generateMetadata() {
 
 export default function MusicPage() {
   return (
-    <Flex maxWidth="l" className="my-12">
+    <Flex
+      maxWidth="l"
+      direction="column"
+      gap="16"
+      className="px-4 sm:px-6 md:px-8 lg:px-12 py-12"
+    >
       <Schema
         as="webPage"
         baseURL={baseURL}
@@ -28,6 +33,7 @@ export default function MusicPage() {
           image: `${baseURL}${person.avatar}`,
         }}
       />
+
       <MusicEmbed />
     </Flex>
   );

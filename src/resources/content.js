@@ -272,9 +272,9 @@ const gallery = {
 const music = {
   display: true,
   title: "Now Playing",
-  label: "Music", // ✅ tambahkan ini
+  label: "Music",
   description: "Curated Spotify playlist for code, flight, and flavor.",
-  embedUrl: "https://open.spotify.com/playlist/4hMdlf53ajrifAfhmfgrnf?si=MAXfRit1RkSoBLzcFdaMqA&pi=N1XcNW39R4Gzp&nd=1&dlsi=802aafaa609248e2",
+  linkUrl: "https://open.spotify.com/playlist/4hMdlf53ajrifAfhmfgrnf?si=MAXfRit1RkSoBLzcFdaMqA", // ganti dari embedUrl ke linkUrl
 };
 
 
