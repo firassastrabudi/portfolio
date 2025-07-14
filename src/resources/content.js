@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Software Engineer",
+  role: "Drone Technologist & Culinary Explorer",
   avatar: "/images/avatar.jpg",
   email: "firassastrabudi@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -63,7 +63,7 @@ const home = {
   },
   subline: (
     <>
-    I'm Firas, the alter ego of @Akbarwicaksn — an electrical engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }} />, where I focus on developing unmanned aerial systems. 
+    I'm Firas, the alter ego of @Akbarwicaksn an electrical engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }} />, where I focus on developing unmanned aerial systems. 
   <br />
     Outside of work, I explore side projects and seek out hidden culinary gems with thoughtfully crafted dishes.
     </>
