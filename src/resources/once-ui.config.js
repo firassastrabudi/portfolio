@@ -74,15 +74,15 @@ const fonts = {
 // };
 
 const style = {
-  theme: 'light'
-  neutral: 'slate'
-  brand: 'blue'
-  accent: 'cyan'
-  solid: 'contrast'
-  solidStyle: 'flat'
-  border: 'rounded'
-  surface: 'filled'
-  transition: 'micro'
+  theme: 'light',
+  neutral: 'slate',
+  brand: 'blue',
+  accent: 'cyan',
+  solid: 'contrast',
+  solidStyle: 'flat',
+  border: 'rounded',
+  surface: 'filled',
+  transition: 'micro',
   scaling: '100'
 };
 
