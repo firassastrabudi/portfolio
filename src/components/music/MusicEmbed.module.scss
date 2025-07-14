@@ -1,0 +1,27 @@
+.musicSection {
+  margin-block: var(--space-32); // jarak atas-bawah
+}
+
+.musicTitle {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+  margin-bottom: var(--space-8);
+}
+
+.musicDescription {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--space-16);
+}
+
+.musicEmbed {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  width: 100%;
+  height: 152px;
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
