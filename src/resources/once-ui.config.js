@@ -75,15 +75,15 @@ const fonts = {
 
 const style = {
   theme: "dark",
-  neutral: "slate",
-  brand: "violet",
-  accent: "pink",
+  neutral: "gray",
+  brand: "red",
+  accent: "yellow",
   solid: "color",
   solidStyle: "plastic",
-  border: "conservative",
+  border: "rounded",
   surface: "translucent",
-  transition: "all",
-  scaling: "95"
+  transition: "macro",
+  scaling: "105"
 };
 
 
