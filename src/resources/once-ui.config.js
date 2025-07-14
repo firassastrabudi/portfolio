@@ -74,17 +74,18 @@ const fonts = {
 // };
 
 const style = {
-  theme: "light",
-  neutral: "gray",
-  brand: "indigo",
-  accent: "green",
-  solid: "contrast",
-  solidStyle: "flat",
-  border: "conservative",
-  surface: "filled",
-  transition: "micro",
-  scaling: "95"
+  theme: "dark",
+  neutral: "sand",
+  brand: "magenta",
+  accent: "yellow",
+  solid: "color",
+  solidStyle: "plastic",
+  border: "playful",
+  surface: "translucent",
+  transition: "macro",
+  scaling: "105"
 };
+
 
 const dataStyle = {
   variant: "gradient", // flat | gradient | outline
