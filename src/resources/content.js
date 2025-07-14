@@ -1,14 +1,14 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Firas Sastra",
+  lastName: "Budi",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  email: "firassastrabudi@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -18,7 +18,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
+      I occasionally write about traveling, technology, and share thoughts on the intersection of
       creativity and engineering.
     </>
   ),
@@ -35,12 +35,12 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/firassastrabudi",
   },
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/@firassastrabudi",
   },
   {
     name: "Email",
@@ -63,8 +63,9 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+    I'm Firas, the alter ego of @Akbarwicaksn — an electrical engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }} />, where I focus on developing unmanned aerial systems. 
+  <br />
+    Outside of work, I explore side projects and seek out hidden culinary gems with thoughtfully crafted dishes.
     </>
   ),
 };
@@ -90,9 +91,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+Firas Sastra Budi is the alter ego of @Akbarwicaksn, an electrical engineer specializing in drone development and control systems. 
+Outside his passion for unmanned aerial systems, 
+Firas is a culinary explorer, 
+often seeking out hidden gems and high-end restaurants that serve exceptional and thoughtfully crafted dishes.
       </>
     ),
   },
@@ -147,12 +149,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Universitas Trisakti",
+        description: <>Master Of Engineering.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Purwadhika Digital Technology School",
+        description: <>Data Analytics - DALS04</>,
       },
     ],
   },
@@ -161,8 +163,9 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "EDA Stack",
+        description: <>Proficient in utilizing Excel, SQL, Python, Tableau, and Power BI for Exploratory Data Analysis (EDA),
+        specializing in Uncovering Patterns, Analyzing Trends, And Delivering Actionable Insight through impactful visualizations to support.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -180,8 +183,9 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "IoT Stack",
+        description: <>Proficient in utilizing the MING stack (MQTT, InfluxDB, Node-RED, Grafana) for IoT solutions, specializing in creating
+        efficient data pipelines, real-time monitoring systems, and interactive dashboard with exceptional speed and accuracy</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
