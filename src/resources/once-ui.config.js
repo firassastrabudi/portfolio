@@ -75,15 +75,15 @@ const fonts = {
 
 const style = {
   theme: "light",
-  neutral: "late",
-  brand: "blue",
-  accent: "cyan",
+  neutral: "gray",
+  brand: "indigo",
+  accent: "green",
   solid: "contrast",
   solidStyle: "flat",
-  border: "rounded",
+  border: "conservative",
   surface: "filled",
   transition: "micro",
-  scaling: "100"
+  scaling: "95"
 };
 
 const dataStyle = {
