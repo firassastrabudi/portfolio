@@ -6,8 +6,8 @@ const baseURL = "https://firassastrabudi.vercel.app";
 const routes = {
   "/": true,
   "/about": true,
-  "/work": true,
-  "/blog": true,
+  "/work": false,
+  "/blog": false,
   "/gallery": true,
   "/music": true,
 };
