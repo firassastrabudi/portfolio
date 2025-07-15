@@ -62,11 +62,24 @@ const home = {
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
-    <>
-    I'm Firas, the alter ego of @Akbarwicaksn an electrical engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }} />, where I focus on developing unmanned aerial systems. 
-  <br />
-    Outside of work, I explore side projects and seek out hidden culinary gems with thoughtfully crafted dishes.
-    </>
+      <>
+        I'm Firas, a persona of{" "}
+        <a 
+          href="https://akbarwicaksn.vercel.app" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style={{ color: "inherit", textDecoration: "underline", margin: "0 0.25em" }}
+        >
+          Akbarwicaksn
+        </a>
+        — a Lecturer at{" "}
+        <Logo 
+          icon="/trademarks/wordmark-dark.svg" 
+          style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }} 
+        />, where I focus on developing unmanned aerial systems.
+        <br />
+        Outside of work, I explore side projects and seek out hidden culinary gems with thoughtfully crafted dishes.
+      </>
   ),
 };
 
