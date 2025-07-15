@@ -49,6 +49,50 @@ const social = [
   },
 ];
 
+// const home = {
+//   path: "/",
+//   image: "/images/og/home.jpg",
+//   label: "Home",
+//   title: `${person.name}'s Portfolio`,
+//   description: `Portfolio website showcasing my work as a ${person.role}`,
+//   headline: <>Advancing drone technology and savoring culinary artistry.</>,
+//   featured: {
+//     display: true,
+//     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
+//     href: "/work/building-once-ui-a-customizable-design-system",
+//   },
+//   subline: (
+// <>
+//   <span style={{ lineHeight: "1.0" }}>
+//     I'm Firas, an identity of{" "}
+//     <a
+//       href="https://akbarwicaksn.vercel.app"
+//       target="_blank"
+//       rel="noopener noreferrer"
+//       style={{ textDecoration: "underline", fontWeight: 500 }}
+//     >
+//       Akbarwicaksn 
+//     </a>, a dedicated lecturer at{" "}
+//   </span>
+//     <span
+//     style={{
+//       display: "inline-flex",
+//       alignItems: "center",
+//       fontWeight: 600,
+//       fontSize: "1em",
+//       marginLeft: "0.25em",
+//     }}
+//   >
+//   Trisakti University,
+//   </span>{" "}
+//   <span style={{ lineHeight: "1.0" }}>
+//     where I spearhead advancements in unmanned aerial systems. Beyond academia, I dive into innovative side projects and uncover culinary masterpieces, savoring dishes crafted with precision and passion.
+//   </span>
+// </>
+
+//   ),
+// };
+
 const home = {
   path: "/",
   image: "/images/og/home.jpg",
@@ -62,36 +106,20 @@ const home = {
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
-<>
-  <span style={{ lineHeight: "1.0" }}>
-    I'm Firas, an identity of{" "}
-    <a
-      href="https://akbarwicaksn.vercel.app"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{ textDecoration: "underline", fontWeight: 500 }}
-    >
-      Akbarwicaksn 
-    </a>, a dedicated lecturer at{" "}
-  </span>
-    <span
-    style={{
-      display: "inline-flex",
-      alignItems: "center",
-      fontWeight: 600,
-      fontSize: "1em",
-      marginLeft: "0.25em",
-    }}
-  >
-  Trisakti University,
-  </span>{" "}
-  <span style={{ lineHeight: "1.0" }}>
-    where I spearhead advancements in unmanned aerial systems. Beyond academia, I dive into innovative side projects and uncover culinary masterpieces, savoring dishes crafted with precision and passion.
-  </span>
-</>
-
+    <p style={{ lineHeight: "1.7", margin: 0 }}>
+      I'm Firas, an identity of{" "}
+      <a
+        href="https://akbarwicaksn.vercel.app"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "underline", fontWeight: 500 }}
+      >
+        Akbarwicaksn
+      </a>, a dedicated lecturer at Trisakti University, where I spearhead advancements in unmanned aerial systems. Beyond academia, I dive into innovative side projects and uncover culinary masterpieces, savoring dishes crafted with precision and passion.
+    </p>
   ),
 };
+
 
 const about = {
   path: "/about",
