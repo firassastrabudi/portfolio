@@ -64,22 +64,21 @@ const home = {
   subline: (
       <>
         I'm Firas, a persona of{" "}
-        <a 
-          href="https://akbarwicaksn.vercel.app" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          style={{ color: "inherit", textDecoration: "underline", margin: "0 0.25em" }}
+        <a
+          href="https://akbarwicaksn.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "underline", fontWeight: 500 }}
         >
           Akbarwicaksn
         </a>
         — a Lecturer at{" "}
-        <Logo 
-          icon="/trademarks/wordmark-dark.svg" 
-          style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }} 
-        />, where I focus on developing unmanned aerial systems.
-        <br />
-        Outside of work, I explore side projects and seek out hidden culinary gems with thoughtfully crafted dishes.
+        <Logo
+          icon="/trademarks/wordmark-dark.svg"
+          style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
+        />, where I focus on developing unmanned aerial systems. Outside of work, I explore side projects and seek out hidden culinary gems with thoughtfully crafted dishes.
       </>
+
   ),
 };
 
@@ -105,17 +104,15 @@ const about = {
     description: (
       <>
         Firas is a persona of{" "}
-        <a 
-          href="https://your-link-here.com" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          style={{ color: "inherit", textDecoration: "underline" }}
+        <a
+          href="https://akbarwicaksn.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "underline", fontWeight: 500 }}
         >
           Akbarwicaksn
         </a>
-        , a Lecturer specializing in drone development and control systems.  
-        Outside his passion for unmanned aerial systems,  
-        Firas is a culinary explorer — often seeking out hidden gems and refined eateries that serve exceptional and thoughtfully crafted dishes.
+        , a Lecturer specializing in drone development and control systems. Outside his passion for unmanned aerial systems, Firas is a culinary explorer — often seeking out hidden gems and refined eateries that serve exceptional and thoughtfully crafted dishes.
       </>
     ),
   },
