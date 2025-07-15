@@ -53,7 +53,7 @@ export const iconLibrary: Record<string, IconType> = {
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
   document: HiOutlineDocument,
   rocket: HiOutlineRocketLaunch,
-  music: FaMusic, // ✅ Tambahkan ikon music di sini
+  music: FaMusic, // ✅ Tambahkan ikon music di sini 
 };
 
 export type IconLibrary = typeof iconLibrary;
