@@ -273,7 +273,7 @@ const music = {
   display: true,
   title: "Never Playing To Anybody",
   label: "Music",
-  description: "Curated Spotify playlist for code, flight, and flavor.",
+  description: 'My "Never playing in front of anybody" Playlist',
   embedUrl: "https://open.spotify.com/embed/playlist/4hMdlf53ajrifAfhmfgrnf?utm_source=generator",
 };
 
