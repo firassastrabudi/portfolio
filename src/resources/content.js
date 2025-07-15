@@ -72,7 +72,7 @@ const home = {
         >
           Akbarwicaksn
         </a>
-        — a Lecturer at{" "}
+        - a Lecturer at{" "}
         <Logo
           icon="/trademarks/wordmark-dark.svg"
           style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
