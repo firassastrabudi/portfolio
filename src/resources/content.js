@@ -271,10 +271,10 @@ const gallery = {
 
 const music = {
   display: true,
-  title: "Now Playing",
+  title: "Never Playing To Anybody",
   label: "Music",
   description: "Curated Spotify playlist for code, flight, and flavor.",
-  linkUrl: "https://open.spotify.com/playlist/4hMdlf53ajrifAfhmfgrnf?si=MAXfRit1RkSoBLzcFdaMqA", // ganti dari embedUrl ke linkUrl
+  embedUrl: "https://open.spotify.com/embed/playlist/4hMdlf53ajrifAfhmfgrnf?utm_source=generator",
 };
 
 

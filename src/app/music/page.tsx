@@ -1,6 +1,14 @@
-import { Flex, Meta, Schema } from "@once-ui-system/core";
+import {
+  Column,
+  Flex,
+  Heading,
+  Avatar,
+  Text,
+  Meta,
+  Schema,
+} from "@once-ui-system/core";
+
 import { baseURL, music, person } from "@/resources";
-import MusicEmbed from "@/components/music/MusicEmbed";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -14,12 +22,7 @@ export async function generateMetadata() {
 
 export default function MusicPage() {
   return (
-    <Flex
-      maxWidth="l"
-      direction="column"
-      gap="16"
-      className="px-4 sm:px-6 md:px-8 lg:px-12 py-12"
-    >
+    <Column maxWidth="m" paddingY="xl" paddingX="m" gap="xl">
       <Schema
         as="webPage"
         baseURL={baseURL}
@@ -34,7 +37,42 @@ export default function MusicPage() {
         }}
       />
 
-      <MusicEmbed />
-    </Flex>
+      {/* Avatar dan Lokasi */}  
+      <Flex horizontal="center" vertical="center" gap="m">
+        <Avatar src={person.avatar} size="xl" />
+      </Flex>
+
+      {/* Judul & Deskripsi */}
+       <Column gap="s" align="center">
+      <Heading variant="display-strong-l">{music.title}</Heading>
+      <Text
+        variant="heading-default-xs" // lebih kecil dan terlihat seperti job desc
+        align="center"
+        onBackground="neutral-weak"
+     > 
+        {music.description}
+      </Text>
+      </Column>
+
+
+      {/* Spotify Embed */}
+      <Flex horizontal="center">
+        <div style={{ width: "100%", maxWidth: "600px", padding: "0 1rem" }}>
+          <iframe
+            title="Spotify Playlist"
+            style={{
+              borderRadius: "12px",
+              width: "100%",
+              height: "352px",
+              maxWidth: "100%",
+              border: "none",
+            }}
+            src={music.embedUrl}
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </Flex>
+    </Column>
   );
 }

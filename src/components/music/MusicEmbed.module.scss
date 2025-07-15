@@ -1,30 +1,39 @@
 .musicSection {
-  margin-block: var(--space-32);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--static-space-16);
+  padding: var(--static-space-24) var(--static-space-12);
+  text-align: center;
 }
 
 .musicTitle {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-display-l);
   font-weight: bold;
-  margin-bottom: var(--space-8);
 }
 
 .musicDescription {
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-sm);
-  margin-bottom: var(--space-16);
+  color: var(--color-text-weak);
+  font-size: var(--font-size-body-m);
+  max-width: 600px;
+}
+
+.musicEmbedWrapper {
+  width: 100%;
+  max-width: 600px;
 }
 
 .musicButton {
   display: inline-block;
-  background-color: #1db954; // Spotify green
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: var(--color-brand-strong);
   color: white;
-  padding: 0.75rem 1.25rem;
-  border-radius: var(--radius-lg);
   text-decoration: none;
   font-weight: 600;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s;
+}
 
-  &:hover {
-    background-color: #1aa34a;
-  }
+.musicButton:hover {
+  background-color: var(--color-brand-medium);
 }
