@@ -104,10 +104,18 @@ const about = {
     title: "Introduction",
     description: (
       <>
-Firas Sastra Budi is the alter ego of @Akbarwicaksn, an electrical engineer specializing in drone development and control systems. 
-Outside his passion for unmanned aerial systems, 
-Firas is a culinary explorer, 
-often seeking out hidden gems and high-end restaurants that serve exceptional and thoughtfully crafted dishes.
+        Firas is a persona of{" "}
+        <a 
+          href="https://your-link-here.com" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style={{ color: "inherit", textDecoration: "underline" }}
+        >
+          Akbarwicaksn
+        </a>
+        , a Lecturer specializing in drone development and control systems.  
+        Outside his passion for unmanned aerial systems,  
+        Firas is a culinary explorer — often seeking out hidden gems and refined eateries that serve exceptional and thoughtfully crafted dishes.
       </>
     ),
   },
