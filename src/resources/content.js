@@ -189,6 +189,21 @@ const about = {
     title: "Technical skills",
     skills: [
       {
+        title: "Web Development Stack",
+        description: <>Proficient in utilizing MongoDB, Golang, and Next.js for building scalable, 
+        high-performance web applications, specializing in creating efficient backend systems,
+         RESTful APIs, and dynamic, server-rendered frontends to deliver seamless user experiences.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Full Stack Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
         title: "EDA Stack",
         description: <>Proficient in utilizing Excel, SQL, Python, Tableau, and Power BI for Exploratory Data Analysis (EDA),
         specializing in Uncovering Patterns, Analyzing Trends, And Delivering Actionable Insight through impactful visualizations to support.</>,
@@ -196,13 +211,7 @@ const about = {
         images: [
           {
             src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            alt: "Data Analysis Project image",
             width: 16,
             height: 9,
           },
@@ -216,7 +225,7 @@ const about = {
         images: [
           {
             src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
+            alt: "IoT Project image",
             width: 16,
             height: 9,
           },
