@@ -30,7 +30,7 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/firassastrabudi",
   },
   {
     name: "LinkedIn",
@@ -100,7 +100,7 @@ const about = {
       <p style={{ lineHeight: "1.7", margin: 0 }}>
         Firas, an identity of{" "}
         <a
-          href="https://your-link-here.com"
+          href="https://akbarwicaksn.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
           style={{ textDecoration: "underline", fontWeight: 500 }}
