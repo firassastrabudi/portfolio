@@ -231,6 +231,21 @@ const about = {
           },
         ],
       },
+      {
+        title: "Electrical Engineering Stack",
+        description: <>Proficient in utilizing EasyEDA for circuit design, PCB fabrication for creating reliable printed circuit boards, 
+        and commissioning processes to ensure seamless deployment and testing of electronic systems, 
+        specializing in delivering robust and efficient hardware solutions.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "IoT Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
     ],
   },
 };
