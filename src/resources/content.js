@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Pioneering drone technology and savoring culinary artistry.</>,
+  headline: <>Advancing drone technology and savoring culinary artistry.</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -86,9 +86,7 @@ const home = {
   Trisakti University,
   </span>{" "}
   <span style={{ lineHeight: "1.0" }}>
-    where I spearhead advancements in unmanned aerial systems. Beyond academia, 
-    I dive into innovative side projects and uncover culinary masterpieces, 
-    savoring dishes crafted with precision and passion.
+    where I spearhead advancements in unmanned aerial systems. Beyond academia, I dive into innovative side projects and uncover culinary masterpieces, savoring dishes crafted with precision and passion.
   </span>
 </>
 
@@ -124,8 +122,7 @@ const about = {
           style={{ textDecoration: "underline", fontWeight: 500 }}
         >
           Akbarwicaksn
-        </a>, is a dedicated lecturer at Trisakti University, driving innovation in drone development and control systems. Beyond his expertise in unmanned aerial systems, Firas passionately explores culinary masterpieces, 
-        seeking out refined eateries that craft dishes with precision and artistry.
+        </a>, is a dedicated lecturer at Trisakti University, driving innovation in drone development and control systems. Beyond his expertise in unmanned aerial systems, Firas passionately explores culinary masterpieces, seeking out refined eateries that craft dishes with precision and artistry.
       </p>
     ),
   },
