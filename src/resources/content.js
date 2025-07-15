@@ -71,18 +71,20 @@ const home = {
       rel="noopener noreferrer"
       style={{ textDecoration: "underline", fontWeight: 500 }}
     >
-      Akbarwicaksn
-    </a>
-     - a Lecturer at{" "}
+      Akbarwicaksn 
+    </a> - a Lecturer at{" "}
   </span>
-  <Logo
-    icon="/trademarks/wordmark-dark.svg"
+    <span
     style={{
       display: "inline-flex",
-      top: "0.25em",
-      marginLeft: "-0.25em",
+      alignItems: "center",
+      fontWeight: 600,
+      fontSize: "1em",
+      marginLeft: "0.25em",
     }}
-  />,{" "}
+  >
+  Trisakti
+  </span>{" "}
   <span style={{ lineHeight: "1.7" }}>
     where I focus on developing unmanned aerial systems. Outside of work, I
     explore side projects and seek out hidden culinary gems with thoughtfully
