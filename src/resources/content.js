@@ -150,7 +150,7 @@ often seeking out hidden gems and high-end restaurants that serve exceptional an
     institutions: [
       {
         name: "Universitas Trisakti",
-        description: <>Master Of Engineering.</>,
+        description: <>Master Of Engineering - 2025.</>,
       },
       {
         name: "Purwadhika Digital Technology School",
