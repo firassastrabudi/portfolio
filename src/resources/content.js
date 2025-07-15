@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Crafting unmanned skies and savoring hidden culinary gems.</>,
+  headline: <>Pioneering drone technology and savoring culinary artistry.</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -63,22 +63,33 @@ const home = {
   },
   subline: (
 <>
-    <span style={{ fontFamily: "Inter, sans-serif", color: "#1a1a1a", fontSize: "1em", lineHeight: "0.8" }}>
-      I'm Firas, an identity of{" "}
-      <a
-        href="https://akbarwicaksn.vercel.app"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ textDecoration: "underline", fontWeight: 500, color: "#1a1a1a" }}
-      >
-        Akbarwicaksn
-      </a>
-      , a dedicated lecturer at{" "}
-      <span style={{ display: "inline-flex", alignItems: "center", fontWeight: 600, fontSize: "1em", marginLeft: "0.25em" }}>
-        Trisakti University
-      </span>
-      , where I spearhead advancements in unmanned aerial systems. Beyond academia, I dive into innovative side projects and uncover culinary masterpieces, savoring dishes crafted with precision and passion.
-    </span>
+  <span style={{ lineHeight: "1.0" }}>
+    I'm Firas, an identity of{" "}
+    <a
+      href="https://akbarwicaksn.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ textDecoration: "underline", fontWeight: 500 }}
+    >
+      Akbarwicaksn 
+    </a>, a dedicated lecturer at{" "}
+  </span>
+    <span
+    style={{
+      display: "inline-flex",
+      alignItems: "center",
+      fontWeight: 600,
+      fontSize: "1em",
+      marginLeft: "0.25em",
+    }}
+  >
+  Trisakti University,
+  </span>{" "}
+  <span style={{ lineHeight: "1.0" }}>
+    where I spearhead advancements in unmanned aerial systems. Beyond academia, 
+    I dive into innovative side projects and uncover culinary masterpieces, 
+    savoring dishes crafted with precision and passion.
+  </span>
 </>
 
   ),
@@ -104,18 +115,18 @@ const about = {
     display: true,
     title: "Introduction",
     description: (
-      <span style={{ fontFamily: "Inter, sans-serif", color: "#1a1a1a", fontSize: "1em", lineHeight: "0.8", margin: 0 }}>
+      <p style={{ lineHeight: "1.7", margin: 0 }}>
         Firas, an identity of{" "}
         <a
-          href="https://akbarwicaksn.vercel.app"
+          href="https://your-link-here.com"
           target="_blank"
           rel="noopener noreferrer"
-          style={{ textDecoration: "underline", fontWeight: 500, color: "#1a1a1a" }}
+          style={{ textDecoration: "underline", fontWeight: 500 }}
         >
           Akbarwicaksn
-        </a>
-        , is a dedicated lecturer at Trisakti University, driving innovation in drone development and control systems. Beyond his expertise in unmanned aerial systems, Firas passionately explores culinary masterpieces, seeking out refined eateries that craft dishes with precision and artistry.
-      </span>
+        </a>, is a dedicated lecturer at Trisakti University, driving innovation in drone development and control systems. Beyond his expertise in unmanned aerial systems, Firas passionately explores culinary masterpieces, 
+        seeking out refined eateries that craft dishes with precision and artistry.
+      </p>
     ),
   },
   work: {
