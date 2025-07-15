@@ -85,7 +85,7 @@ const home = {
   >
   Trisakti
   </span>{" "}
-  <span style={{ lineHeight: "1.7" }}>
+  <span style={{ lineHeight: "1.0" }}>
     where I focus on developing unmanned aerial systems. Outside of work, I
     explore side projects and seek out hidden culinary gems with thoughtfully
     crafted dishes.
