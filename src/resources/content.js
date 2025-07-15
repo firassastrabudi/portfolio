@@ -103,15 +103,15 @@ often seeking out hidden gems and high-end restaurants that serve exceptional an
     title: "Work Experience",
     experiences: [
       {
-        company: "Lion Group",
+        company: "Lion Group (Airlines Division)",
         timeframe: "2024 - 2025",
         role: "Auditor - Full Stack Data Analyst",
         achievements: [
           <>
-            Audited end-to-end internal control processes to ensure accuracy, efficiency, and continuous improvement.
+            Audited end-to-end internal control processes to improve accuracy, efficiency, and drive continuous improvement. (First 4 months)
           </>,
           <>
-            Developed multiple web-based systems using MongoDB, Golang, and Next.js — reducing a 2-day process to 30 minutes and streamlining other similar workflows.
+            Developed multiple web-based systems using MongoDB, Golang, and Next.js — reducing a 2-day process to 30 minutes and optimizing other similar workflows. (Remaining period)
           </>,
         ],
         images: [
@@ -146,11 +146,11 @@ often seeking out hidden gems and high-end restaurants that serve exceptional an
     institutions: [
       {
         name: "Universitas Trisakti",
-        description: <>Master Of Engineering - 2025.</>,
+        description: <>Master Of Engineering</>,
       },
       {
         name: "Purwadhika Digital Technology School",
-        description: <>Data Analytics - DALS04</>,
+        description: <>Data Analytics DALS04</>,
       },
     ],
   },
