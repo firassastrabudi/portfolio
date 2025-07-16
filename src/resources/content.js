@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Drone Technologist & Culinary Explorer",
+  role: "Drone Engineer & Culinary Enthusiast",
   avatar: "/images/avatar.jpg",
   email: "firassastrabudi@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
