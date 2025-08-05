@@ -63,7 +63,7 @@ const home = {
   },
   subline: (
     <p style={{ lineHeight: "1.7", margin: 0 }}>
-      I'm Firas, an identity of{" "}
+      Firas is an identity of{" "}
       <a
         href="https://akbarwicaksn.vercel.app"
         target="_blank"
@@ -71,7 +71,7 @@ const home = {
         style={{ textDecoration: "underline", fontWeight: 500 }}
       >
         Akbarwicaksn
-      </a>, a dedicated lecturer at Trisakti University, where I spearhead advancements in unmanned aerial systems. Beyond academia, I dive into innovative side projects and uncover culinary masterpieces, savoring dishes crafted with precision and passion.
+      </a>, a dedicated lecturer at Trisakti University, where he spearheads advancements in unmanned aerial systems. Beyond academia, he dives into innovative side projects and uncovers culinary masterpieces, savoring dishes crafted with precision and passion.
     </p>
   ),
 };
