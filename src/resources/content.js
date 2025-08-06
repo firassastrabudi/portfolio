@@ -71,7 +71,7 @@ const home = {
         style={{ textDecoration: "underline", fontWeight: 500 }}
       >
         "Drone's
-      </a> are often used for expensive commercial purposes, things people like me may never experience. Meanwhile, in other parts of the world, drones support the economy, farming, transport, even war." Can drones help us dream big again? Could they one day bring us back to those fancy, exclusive restaurants?
+      </a> are often used for expensive commercial purposes, things people like me may never experience. Meanwhile, in other parts of the world, drones support the economy, farming, transport, even war." Can drones help me dream big again? Could they one day bring me back to those fancy, exclusive restaurants?
   </p>
   ),
 };
@@ -106,10 +106,10 @@ const about = {
           style={{ textDecoration: "underline", fontWeight: 500 }}
         >
           I
-        </a> shifted careers from an automation engineer to roles I never imagined before. Auditor, and Data Analyst. A 
+        </a> shifted careers from an automation engineer to roles I never imagined before. auditor, and data analyst. A 
         "second chance," as they call it in American education. But to be honest, i dont think
         this shift has been entirely positive. Science has so few admirers in this country.
-        Long-Shor story, i decided to become a lecturer, letting go of all the prestige, including the generous salary from my previous job.
+        Long-Short story, i decided to become a lecturer, letting go of all the prestige, including the generous salary from my previous job.
         i still hope that one day, a drone might take me back to those fancy, exclusive restaurants i once enjoyed.
       </p>
     ),
