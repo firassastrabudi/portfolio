@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>In the Drone's Shadow, I Planted My Faith!</>,
+  headline: <>In the Drone's Shadow, And How I Planted My Faith!</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -106,10 +106,10 @@ const about = {
           style={{ textDecoration: "underline", fontWeight: 500 }}
         >
           I
-        </a> shifted careers from an automation engineer to roles I never imagined before, Auditor, and Data Analyst. A 
+        </a> shifted careers from an automation engineer to roles I never imagined before. Auditor, and Data Analyst. A 
         "second chance," as they call it in American education. But to be honest, i dont think
         this shift has been entirely positive. Science has so few admirers in this country.
-        Eventually, i decided to become a lecturer, letting go of all the prestige, including the generous salary from my previous job.
+        Long-Shor story, i decided to become a lecturer, letting go of all the prestige, including the generous salary from my previous job.
         i still hope that one day, a drone might take me back to those fancy, exclusive restaurants i once enjoyed.
       </p>
     ),
