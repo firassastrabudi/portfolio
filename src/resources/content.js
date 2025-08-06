@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>In the Drone's Shadow, We Planted Our Faith Bridging Worlds with Innovation.</>,
+  headline: <>In the Drone's Shadow, I Planted My Faith!</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -63,7 +63,7 @@ const home = {
   },
   subline: (
     <p style={{ lineHeight: "1.7", margin: 0 }}>
-      In the {" "}
+      The gap between my world and theirs is clear: {" "}
       <a
         href="https://akbarwicaksn.vercel.app"
         target="_blank"
@@ -71,7 +71,7 @@ const home = {
         style={{ textDecoration: "underline", fontWeight: 500 }}
       >
         Drone's
-      </a> shadow, we planted our faith hoping technology could bridge the gap between worlds. While drones are often reserved for expensive commercial ventures, far from the reach of ordinary people, in other parts of the world they support economies, farming, transport, and even war. Could drones inspire us to dream big again? Might they one day bring us back to those exclusive experiences once thought out of reach?
+      </a> are often used for expensive commercial purposes, things people like me may never experience. Meanwhile, in other parts of the world, drones support the economy, farming, transport, even war. Can drones help us dream big again? Could they one day bring us back to those fancy, exclusive restaurants?
   </p>
   ),
 };
