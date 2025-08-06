@@ -63,15 +63,15 @@ const home = {
   },
   subline: (
     <p style={{ lineHeight: "1.7", margin: 0 }}>
-      The gap between my world and theirs is clear: {" "}
+      The gap between my world and theirs is clear {" "}
       <a
         href="https://akbarwicaksn.vercel.app"
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "underline", fontWeight: 500 }}
       >
-        Drone's
-      </a> are often used for expensive commercial purposes, things people like me may never experience. Meanwhile, in other parts of the world, drones support the economy, farming, transport, even war. Can drones help us dream big again? Could they one day bring us back to those fancy, exclusive restaurants?
+        "Drone's
+      </a> are often used for expensive commercial purposes, things people like me may never experience. Meanwhile, in other parts of the world, drones support the economy, farming, transport, even war." Can drones help us dream big again? Could they one day bring us back to those fancy, exclusive restaurants?
   </p>
   ),
 };
@@ -98,15 +98,19 @@ const about = {
     title: "Introduction",
     description: (
       <p style={{ lineHeight: "1.7", margin: 0 }}>
-        Known as Firas, the persona of{" "}
+        In my real life, {" "}
         <a
           href="https://akbarwicaksn.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
           style={{ textDecoration: "underline", fontWeight: 500 }}
         >
-          Akbarwicaksn
-        </a>, serves as a dedicated lecturer at Trisakti University, leading advancements in drone development and control systems. With expertise in unmanned aerial systems, Firas also explores the world of culinary arts, discovering refined eateries renowned for their precision and artistry in every dish.
+          I
+        </a> shifted careers from an automation engineer to roles I never imagined before, Auditor, and Data Analyst. A 
+        "second chance," as they call it in American education. But to be honest, i dont think
+        this shift has been entirely positive. Science has so few admirers in this country.
+        Eventually, i decided to become a lecturer, letting go of all the prestige, including the generous salary from my previous job.
+        i still hope that one day, a drone might take me back to those fancy, exclusive restaurants i once enjoyed.
       </p>
     ),
   },
