@@ -98,7 +98,7 @@ const about = {
     title: "Introduction",
     description: (
       <p style={{ lineHeight: "1.7", margin: 0 }}>
-        Firas, an identity of{" "}
+        Known as Firas, the persona of{" "}
         <a
           href="https://akbarwicaksn.vercel.app"
           target="_blank"
@@ -106,7 +106,7 @@ const about = {
           style={{ textDecoration: "underline", fontWeight: 500 }}
         >
           Akbarwicaksn
-        </a>, is a dedicated lecturer at Trisakti University, driving innovation in drone development and control systems. Beyond his expertise in unmanned aerial systems, Firas passionately explores culinary masterpieces, seeking out refined eateries that craft dishes with precision and artistry.
+        </a>, serves as a dedicated lecturer at Trisakti University, leading advancements in drone development and control systems. With expertise in unmanned aerial systems, Firas also explores the world of culinary arts, discovering refined eateries renowned for their precision and artistry in every dish.
       </p>
     ),
   },
